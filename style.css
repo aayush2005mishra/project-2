@@ -1,0 +1,96 @@
+
+
+
+/* Navigation Bar Styles */
+
+#navbar ul{
+  background-color: darkgray; /* dark gray background */
+  padding: 1em; /* add some padding */
+  display: flex; /* make it a flex container */
+  justify-content: space-between; /* space out the items */
+  align-items: center; /* center the items vertically */
+  list-style: none;
+  
+  
+}
+
+#navbar ul a {
+  color:blue; /* white text color */
+  text-decoration: none; /* remove underline */
+  margin: 0 20px; /* add some spacing between items */
+  transition: color 0.2s ease; /* add a smooth transition effect */
+  list-style: none;
+
+}
+
+#navbar a:hover {
+  color: goldenrod; /* light gray text color on hover */
+  list-style: none;
+  background-color: mediumvioletred;
+  
+}
+
+
+.navbar .logo {
+  width: 40px; /* adjust logo size */
+  margin-right: 20px; /* add some spacing between logo and nav items */
+}
+logo.png {
+  width: 30px; /* adjust the width to your desired size */
+  height: 10px; /* adjust the height to your desir/* add some space between the logo and the navigation items */
+}
+
+
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.video-container video {
+  width: 50%;
+  margin: 20px;
+}
+
+#services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#services li {
+  margin-bottom: 20px;
+}
+
+#services a {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+#services a:hover {
+  color: red;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-color: red;
+}
+  
+
+/* For desktop screens */
+@media only screen and (min-width: 768px) {
+  /* styles here */
+}
+
+/* For tablet screens */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* styles here */
+}
+
+/* For mobile screens */
+@media only screen and (max-width: 479px) {
+  /* styles here */
+}
